@@ -1,0 +1,7 @@
+mcp>=1.0.0
+pylink>=0.3.3
+pyelftools>=0.31
+pyyaml>=6.0
+python-dotenv>=1.0.0
+llama-cloud>=0.1.0
+filelock>=3.0.0

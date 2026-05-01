@@ -1,0 +1,51 @@
+# ==================== 环境与密钥 ====================
+.env
+.env.local
+*.key
+
+# ==================== Python 缓存 ====================
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ==================== 虚拟环境 ====================
+venv/
+.venv/
+
+# ==================== 工程产物与缓存 ====================
+# 编译产物
+*.hex
+*.axf
+*.map
+
+# HIL 相关缓存
+.hil_symbols.json
+.hil_cache.json
+.kb_index.json
+.jlink_hardware.lock
+project_config.yaml
+
+# 构建日志
+build.log
+flash.log
+
+# IDE
+.idea/
+.vscode/
+
+# ==================== 知识库 PDF（版权保护）====================
+# 请用户自行从华大/HDSC 官网下载参考手册 PDF
+knowledge_base/**/*.pdf
+
+# ==================== AI 助手记忆 ====================
+memory/
+
+# ==================== 操作系统 ====================
+Thumbs.db
+.DS_Store
