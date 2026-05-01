@@ -1,0 +1,27 @@
+MDK-ARM Professional (or similar)
+    TestTarget
+    ----------------------------------------------------------------------
+    Total RO  Size (Code + RO Data)                1234 (  1.21kB)
+    Total RW  Size (RW Data + ZI Data)             5678 (  5.54kB)
+    Total ROM Size (Code + RO Data + RW Data)      1234 (  1.21kB)
+    ----------------------------------------------------------------------
+
+    ===============================================================================
+      *** Used symbols ***
+    ===============================================================================
+
+    Symbol Name                     Value        Type       Size      Object
+    ------------------------------  ----------   --------  --------  ----------
+    main                            0x00000123   Thumb Code 0x000004  main.o
+    p_cfg                           0x20000000   Data       0x000004  main.o
+    threshold                       0x20000004   Data       0x000004  main.o  .hil_expose
+    velocity                        0x20000008   Data       0x000002  main.o  .hil_expose
+    sensor_value                    0x2000000C   Data       0x000004  sensor.o
+    _SEGGER_RTT                     0x20000100   Data       0x000400  SEGGER_RTT.o
+    g_active_idx                    0x20000500   Data       0x000001  hil_inject.o
+    g_config_version                0x20000501   Data       0x000001  hil_inject.o
+    hil_cfg                         0x20000504   Data       0x000020  hil_inject.o  .hil_expose
+
+    ===============================================================================
+      *** Memory Map ***
+    ===============================================================================

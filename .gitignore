@@ -24,6 +24,9 @@ venv/
 *.axf
 *.map
 
+# 测试样本（例外）
+!tests/samples/*.map
+
 # HIL 相关缓存
 .hil_symbols.json
 .hil_cache.json
